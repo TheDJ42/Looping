@@ -11,10 +11,10 @@
         <TextBlock x:Name="textBlock_1" HorizontalAlignment="Left" Margin="78,125,0,0" TextWrapping="Wrap" Text="N: " VerticalAlignment="Top"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="96,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62"/>
         <TextBox x:Name="textBox_3" HorizontalAlignment="Left" Height="23" Margin="96,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62" RenderTransformOrigin="0.479,0.598"/>
-        <TextBlock x:Name="textBlock_2" HorizontalAlignment="Left" Margin="57,32,0,0" TextWrapping="Wrap" Text="X to the Nth Power" VerticalAlignment="Top" Height="17" Width="103"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="226" Margin="38,32,0,0" VerticalAlignment="Top" Width="221"/>
+
         <Button x:Name="calculateX" Content="Calculate" HorizontalAlignment="Left" Margin="110,172,0,0" VerticalAlignment="Top" Width="75" Click="calculateX_Click"/>
-        <TextBox x:Name="answer" HorizontalAlignment="Left" Height="23" Margin="78,216,0,0" TextWrapping="Wrap" Text="Answer: " VerticalAlignment="Top" Width="107"/>
+        <TextBlock x:Name="answerBlock" HorizontalAlignment="Left" Height="32" Margin="78,216,0,0" TextWrapping="Wrap" Text="Answer: " VerticalAlignment="Top" Width="107"/>
+        <GroupBox x:Name="xToNth" Header="X to the Nth Power" HorizontalAlignment="Left" VerticalAlignment="Top" Height="215" Width="213" Margin="36,33,0,0"/>
 
     </Grid>
 </Window>

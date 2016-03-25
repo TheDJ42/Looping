@@ -27,8 +27,21 @@ namespace Looping
 
         private void calculateX_Click(object sender, RoutedEventArgs e)
         {
-            int n = textBox_3.cont;
-             
+            long n = Convert.ToInt64(textBox_3.Text);
+            long x = Convert.ToInt32(textBox.Text);
+            long count = n;
+            long answer = 1;
+
+            while (count != 0)
+            {
+                answer = x * answer;
+                count--;
+            }
+            
+            answerBlock.Text = "Answer: " + answer.ToString();
+            
+
+
         }
     }
 }
