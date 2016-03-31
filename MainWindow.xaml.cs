@@ -43,5 +43,17 @@ namespace Looping
 
 
         }
+
+        private void calculate1_Click(object sender, RoutedEventArgs e)
+        {
+            long loanAmount = Convert.ToInt64(loanAmountText.Text);
+            long monthlyPay = Convert.ToInt64(monthPay);
+            long count = 0;
+            // Calculate Loan Length
+            for (loanAmount != 0)
+            {
+
+            }
+        }
     }
 }
