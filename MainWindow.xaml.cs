@@ -60,7 +60,24 @@ namespace Looping
 
         private void startSeq_Click(object sender, RoutedEventArgs e)
         {
-
+            long startVal = Convert.ToInt64(hailStartVal.Text);
+            long n = startVal;
+            string text = Convert.ToString(n);
+            do
+            {
+                if (n % 2 == 0)
+                {
+                    n = n / 2;
+                }
+                else
+                {
+                    n = n * 3 + 1;
+                }
+                text = text + " " + Convert.ToString(n);
+                textBox2.Text = text;
+            }
+            while (n != 1);
+            
         }
     }
 }
