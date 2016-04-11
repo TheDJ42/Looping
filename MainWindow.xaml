@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Looping"
         mc:Ignorable="d"
-        Title="MainWindow" Height="363.679" Width="732.385">
+        Title="MainWindow" Height="410.761" Width="850.962">
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="78,90,0,0" TextWrapping="Wrap" Text="X: " VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock_1" HorizontalAlignment="Left" Margin="78,125,0,0" TextWrapping="Wrap" Text="N: " VerticalAlignment="Top"/>
@@ -20,8 +20,13 @@
         <TextBox x:Name="loanAmountText" HorizontalAlignment="Left" Height="23" Margin="375,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="monthPay" HorizontalAlignment="Left" Height="23" Margin="396,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="calculate1" Content="Calculate" HorizontalAlignment="Left" Margin="364,172,0,0" VerticalAlignment="Top" Width="75" Click="calculate1_Click"/>
-        <TextBlock x:Name="block3" HorizontalAlignment="Left" Height="23" Margin="364,225,0,0" TextWrapping="Wrap" Text=":D" VerticalAlignment="Top" Width="120"/>
-        <GroupBox x:Name="groupBox" Header="Loan Calculator" HorizontalAlignment="Left" Margin="255,18,0,0" VerticalAlignment="Top" Width="305" Height="292"/>
+        <TextBlock x:Name="block3" HorizontalAlignment="Left" Height="58" Margin="364,225,0,0" TextWrapping="Wrap" Text=":D" VerticalAlignment="Top" Width="120"/>
+        <GroupBox x:Name="groupBox" Header="Loan Calculator" HorizontalAlignment="Left" Margin="255,18,0,0" VerticalAlignment="Top" Width="273" Height="292"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="565,78,0,0" TextWrapping="Wrap" Text="Starting Value:" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="hailStartVal" HorizontalAlignment="Left" Height="23" Margin="650,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="startSeq" Content="Start Sequence" HorizontalAlignment="Left" Margin="617,122,0,0" VerticalAlignment="Top" Width="118" Click="startSeq_Click"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="573,191,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="105" Width="214"/>
+        <GroupBox x:Name="groupBox1" Header="Hailstone Sequence" HorizontalAlignment="Left" Margin="540,18,0,0" VerticalAlignment="Top" Height="292" Width="282"/>
 
     </Grid>
 </Window>
